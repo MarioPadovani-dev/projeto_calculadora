@@ -144,3 +144,46 @@ projeto_calculadora/
 ├── README.md
 └── .gitignore
 ```
+
+---
+
+## 9. Print da Execução dos Testes
+
+Compilação e execução (a partir da raiz do projeto, com JDK 17 ou superior):
+
+
+### 9.1 Antes da refatoração (6 testes)
+
+Cada teste exibe as **entradas utilizadas**, o **resultado esperado** e o **resultado obtido**.
+
+![Testes antes da refatoração](images/testes/testes_versao_inicial.png)
+
+### 9.2 Após a refatoração (13 testes)
+
+![Testes após a refatoração](images/refatoracao/testes_refatoracao.png)
+
+**Taxa de sucesso:** (13 aprovados / 13 executados) × 100 = **100%**
+
+---
+
+## 10. Print da Documentação JavaDoc
+
+Documentação gerada com o comando abaixo; o arquivo [`docs/index.html`](docs/index.html) abre normalmente no navegador.
+
+**Página inicial (pacote `calculadora`)**
+
+![JavaDoc - página inicial](images/javadoc/javadoc_index.png)
+
+**Classe `Calculadora`**
+
+![JavaDoc - classe Calculadora](images/javadoc/javadoc_classe_calculadora.png)
+
+**Classe `TesteCalculadora`**
+
+![JavaDoc - classe TesteCalculadora](images/javadoc/javadoc_classe_teste.png)
+
+---
+
+## 11. Link do Repositório
+
+🔗 **https://github.com/MarioPadovani-dev/projeto_calculadora**
